@@ -457,15 +457,13 @@ class App {
       // ⬇️ AQUÍ PEGAS EL LINK DE LA IMAGEN DE CADA CATEGORÍA
 // El "name" debe ser IGUAL a la categoría de tus productos
 const homeCats = [
-    { name: "camiseros OG",    img: "https://cdn.phototourl.com/member/2026-10-14-e0847156-bce4-4111-ba13-8a3dd113deb5.jpg" },
-    { name: "polos calidad OG",        img: "https://cdn.phototourl.com/member/2026-10-14-f2906362-c22a-4383-8e2c-c58fd9961104.jpg" },
-    { name: "camisas calidad OG",      img: "https://cdn.phototourl.com/member/2026-10-14-f2a4fdf1-dccc-405d-b6fd-2660905d1627.jpg" },
-    { name: "sueteres",        img: "https://cdn.phototourl.com/member/2026-10-14-b64af40d-b6c5-4f86-8add-48b20b557cd2.jpg" },
-    { name: "poleras",         img: "https://cdn.phototourl.com/member/2026-10-14-46187014-8fba-4d27-8d52-d229df2872ee.jpg" },
-    { name: "polos camiseros", img: "https://cdn.phototourl.com/member/2026-10-14-b454e5f2-14ef-4b88-802b-8117f0ff2f60.jpg" },
-    { name: "pantalones",      img: "https://cdn.phototourl.com/member/2026-10-14-5f55bc0f-0d4d-4273-b6e8-13ecd61f6d7d.jpg" },
-    { name: "camisas",         img: "https://cdn.phototourl.com/member/2026-10-14-6f82e65d-caa0-4d31-8f88-0f3a78160fd8.jpg" },
-    { name: "gorras",          img: "https://cdn.phototourl.com/member/2026-10-14-5528b047-1228-4ec6-b878-b70f75d77a99.jpg" }
+    { name: "pantalones jeans",    img: "https://cdn.phototourl.com/member/2026-10-26-2fae6708-b805-4b6a-9408-d26d92f657a6.png" },
+    { name: "drill clasico",        img: "https://cdn.phototourl.com/member/2026-10-26-5be8bdb2-fb0c-417b-96a7-fe0241f191a7.png" },
+    { name: "semipitillos",      img: "https://cdn.phototourl.com/member/2026-10-26-a56aa61f-d6e8-43ad-b782-a912b55ec83d.png" },
+    { name: "short rigido clasico",        img: "https://cdn.phototourl.com/member/2026-10-26-361f722e-6a66-451d-844f-dafc13f188bd.png" },
+    { name: "short drill",         img: "https://cdn.phototourl.com/member/2026-10-26-1d2219af-64ba-4293-9666-8163b62e041c.png" },
+    { name: "jeans strech", img: "https://cdn.phototourl.com/member/2026-10-26-a19d0b2a-d71d-45a5-bb5b-b0b77bcceeea.png" },
+    { name: "baggys mon jeneas",      img: "https://cdn.phototourl.com/member/2026-10-26-d3985175-3793-4a44-86c9-752b9a76b675.png" },
 ];
 const catsGrid = document.getElementById("home-categories");
 catsGrid.innerHTML = "";
