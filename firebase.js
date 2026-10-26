@@ -28,16 +28,7 @@ import {
     limit 
 } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-// Configuración de Firebase - Reemplazar por tus credenciales de consola Firebase
-// Import the functions you need from the SDKs you need
-
-//aca iba lo q borre de 2//
-
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Configuración de Firebase actualizadas a tu nuevo proyecto
 const firebaseConfig = {
   apiKey: "AIzaSyD9djE8NgR_BTKN7jDr40qKQ8v5nzcuN3I",
   authDomain: "driptokstore-e3a7b.firebaseapp.com",
@@ -51,12 +42,13 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// 👇 ESTAS SON LAS DOS LÍNEAS NUEVAS QUE DEBES PONER 👇
+// Instancias de Auth y Firestore
 const auth = getAuth(app);
 const db = getFirestore(app);
 
 // ID del administrador maestro (se almacena como campo en Firestore o UID definido)
-const ADMIN_EMAIL = "lagloriosacervecera.91@gmail.com";
+const ADMIN_EMAIL = "elohims480@gmail.com";
+
 /* ==========================================================================
    MÓDULO: AUTENTICACIÓN
    ========================================================================== */
