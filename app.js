@@ -730,6 +730,7 @@ homeCats.forEach(cat => {
             let msg = `Hola EloHims.\nQuiero realizar la compra de los siguientes productos:\n`;
             this.cart.forEach(item => {
                 msg += `• ${item.quantity}x ${item.name}\n`;
+                msg += `  Desc: ${item.desc}\n\n`; // <--- Esto añade la descripción
             });
             msg += `\nMuchisimas gracias.\nRef-Orden: PS-${orderId.substring(0,6).toUpperCase()}`;
 
